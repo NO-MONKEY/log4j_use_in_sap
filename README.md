@@ -10,7 +10,7 @@ By using the elastic search query 'https://help.sap.com/http.svc/elasticsearch?a
 ## Disclaimer
 This is by no means a proof that the product is vulnerable for Log4Shell! This is meant to be a help to prioritise  investigation.
 
-The filtered output including the elastic search finding details with the exact reference URL are available in json format here.
+The filtered output including the elastic search finding details with the exact reference URL are available in json format [here](https://github.com/NO-MONKEY/log4j_use_in_sap/blob/main/log4j_sap_products.json).
 
 This compiles into a list of the following unique SAP product names:
 
