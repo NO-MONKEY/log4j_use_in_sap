@@ -8,6 +8,7 @@ We've been using the official SAP documentation ([help.sap.com](https://help.sap
 Further source of information:
 - [Q&A feed on answers.sap.com](https://answers.sap.com/questions/13547385/sap-and-log4j.html)
 - [Official SAP Trust Office statement (supposed to be updated)](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/trust-center/sap-tc-01-5025.pdf)
+- [Blog of how to determine and fix log4shell in HANA XS](https://blogs.sap.com/2021/12/14/hana-xsa-log4j-cve-2021-44228/) 
 
 By using the elastic search query 'https://help.sap.com/http.svc/elasticsearch?area=content&deliverable=&version=&language=en-US&state=PRODUCTION&q=%27log4j&transtype=standard,html,pdf,others&product=&to=5000&advancedSearch=0&excludeNotSearchable=1' we retriefed the first 5k matches in help.sap.com and parsed the json result about the products with exact matches for __log4j__, __Log4j__, and __Log4J__. 
 
