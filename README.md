@@ -11,7 +11,7 @@ Further source of information:
 - [Blog of how to determine and fix log4shell in HANA XS](https://blogs.sap.com/2021/12/14/hana-xsa-log4j-cve-2021-44228/) 
 - The SAP RFC connection library [JcO](https://support.sap.com/en/product/connectors/jco.html) uses Log4j in the class __Log4jTraceWriter__. See details below:
 
-```(java)
+```java
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
